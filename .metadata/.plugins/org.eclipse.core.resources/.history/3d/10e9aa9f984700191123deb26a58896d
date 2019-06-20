@@ -1,0 +1,28 @@
+package com.review4;
+
+public class test {
+	public static void main(String[] args) {
+		
+		
+//		Create a do while loop that prints out numbers from 45 to 50
+//
+//		Must not include the number 50 in the output 
+//
+//		Increment by 1 within the do example:
+//		do  {
+//		a--;
+//		 }
+	
+		int b=45;
+		do {
+			System.out.println(b);
+			b--;
+			
+			
+		}while(b>50);
+		
+	
+	
+	}
+
+}

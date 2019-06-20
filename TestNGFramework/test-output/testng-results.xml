@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25090" started-at="2019-06-09T17:18:17Z" finished-at="2019-06-09T17:18:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25090" started-at="2019-06-09T17:18:17Z" finished-at="2019-06-09T17:18:42Z">
+      <class name="com.syntax.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.syntax.testcases.LoginPageTest@475530b9]" name="setUp" is-config="true" duration-ms="4871" started-at="2019-06-09T17:18:17Z" finished-at="2019-06-09T17:18:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="doLogin()[pri:0, instance:com.syntax.testcases.LoginPageTest@475530b9]" name="doLogin" duration-ms="14223" started-at="2019-06-09T17:18:22Z" finished-at="2019-06-09T17:18:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.syntax.testcases.LoginPageTest@475530b9]" name="tearDown" is-config="true" duration-ms="329" started-at="2019-06-09T17:18:36Z" finished-at="2019-06-09T17:18:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.syntax.testcases.LoginPageTest@475530b9]" name="setUp" is-config="true" duration-ms="3190" started-at="2019-06-09T17:18:37Z" finished-at="2019-06-09T17:18:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginToOrangeHRM()[pri:0, instance:com.syntax.testcases.LoginPageTest@475530b9]" name="loginToOrangeHRM" duration-ms="2140" started-at="2019-06-09T17:18:40Z" finished-at="2019-06-09T17:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToOrangeHRM -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.syntax.testcases.LoginPageTest@475530b9]" name="tearDown" is-config="true" duration-ms="276" started-at="2019-06-09T17:18:42Z" finished-at="2019-06-09T17:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.syntax.testcases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

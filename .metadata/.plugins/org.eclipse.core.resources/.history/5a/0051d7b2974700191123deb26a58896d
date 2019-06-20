@@ -1,0 +1,26 @@
+package com.review4;
+
+public class test {
+	public static void main(String[] args) {
+		
+		
+		// Write a program that the String "the time is 06:min
+		// and then all the mins till 6:55
+		
+		
+	int min=0;
+	
+	do {
+		System.out.println("the time is 06:"+min);
+		min++;
+	
+	}while(min<=55);
+	
+	
+	
+	
+	
+	
+	}
+
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23117" started-at="2019-06-07T00:18:29Z" finished-at="2019-06-07T00:18:52Z">
+    <groups>
+      <group name="Regression">
+        <method signature="NewTourExample$NewtoursExample.contactInformation()[pri:0, instance:com.class04.NewTourExample$NewtoursExample@26653222]" name="contactInformation" class="com.class04.NewTourExample$NewtoursExample"/>
+        <method signature="NewTourExample$NewtoursExample.mailingInformation()[pri:0, instance:com.class04.NewTourExample$NewtoursExample@26653222]" name="mailingInformation" class="com.class04.NewTourExample$NewtoursExample"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="NewTourExample$NewtoursExample.userInformation()[pri:0, instance:com.class04.NewTourExample$NewtoursExample@26653222]" name="userInformation" class="com.class04.NewTourExample$NewtoursExample"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Default test" duration-ms="23117" started-at="2019-06-07T00:18:29Z" finished-at="2019-06-07T00:18:52Z">
+      <class name="com.class04.NewTourExample$NewtoursExample">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.class04.NewTourExample$NewtoursExample@26653222]" name="setUP" is-config="true" duration-ms="7434" started-at="2019-06-07T00:18:29Z" finished-at="2019-06-07T00:18:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="contactInformation()[pri:0, instance:com.class04.NewTourExample$NewtoursExample@26653222]" name="contactInformation" duration-ms="1792" started-at="2019-06-07T00:18:36Z" finished-at="2019-06-07T00:18:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactInformation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.class04.NewTourExample$NewtoursExample@26653222]" name="tearDown" is-config="true" duration-ms="239" started-at="2019-06-07T00:18:38Z" finished-at="2019-06-07T00:18:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.class04.NewTourExample$NewtoursExample@26653222]" name="setUP" is-config="true" duration-ms="4717" started-at="2019-06-07T00:18:39Z" finished-at="2019-06-07T00:18:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="userInformation()[pri:0, instance:com.class04.NewTourExample$NewtoursExample@26653222]" name="userInformation" duration-ms="2201" started-at="2019-06-07T00:18:43Z" finished-at="2019-06-07T00:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInformation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.class04.NewTourExample$NewtoursExample@26653222]" name="tearDown" is-config="true" duration-ms="233" started-at="2019-06-07T00:18:45Z" finished-at="2019-06-07T00:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.class04.NewTourExample$NewtoursExample@26653222]" name="setUP" is-config="true" duration-ms="4496" started-at="2019-06-07T00:18:46Z" finished-at="2019-06-07T00:18:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="mailingInformation()[pri:0, instance:com.class04.NewTourExample$NewtoursExample@26653222]" name="mailingInformation" duration-ms="1731" started-at="2019-06-07T00:18:50Z" depends-on-methods="com.class04.NewTourExample$NewtoursExample.contactInformation" finished-at="2019-06-07T00:18:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mailingInformation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.class04.NewTourExample$NewtoursExample@26653222]" name="tearDown" is-config="true" duration-ms="124" started-at="2019-06-07T00:18:52Z" finished-at="2019-06-07T00:18:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.class04.NewTourExample$NewtoursExample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

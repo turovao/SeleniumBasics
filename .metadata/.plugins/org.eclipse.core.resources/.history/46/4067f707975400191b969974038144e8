@@ -1,0 +1,19 @@
+package com.class15AnswerForInterviewQuestions;
+
+public class Practice {
+	public static void main(String []args) {
+		
+		
+		
+//		String main=" Olga is the happiest person in the world";
+//		System.out.println(main.replaceAll(" ", ""));
+		
+		String comb= "Hi how are 123*(&^%you?)";
+		System.out.println( comb.replaceAll("[^A-Za-z]", ""));
+		for( int i=0; i<comb.length(); i++) {
+			System.out.println(comb[i]);
+		}
+		
+	}
+
+}

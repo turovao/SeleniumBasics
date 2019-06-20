@@ -1,0 +1,12 @@
+package com.class15AnswerForInterviewQuestions;
+
+public class Practice {
+	public static void main(String []args) {
+		
+		
+		
+		String main=" Olga is the happiest person in the world";
+		System.out.println(main.replaceAll(" ", ""));
+	}
+
+}

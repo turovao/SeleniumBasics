@@ -1,0 +1,27 @@
+package com.review4;
+
+public class test {
+	public static void main(String[] args) {
+		
+		
+//		Create a do while loop that prints out numbers from 25 to 39
+//
+//		Must  include the number 39 in the output 
+//
+//		Increment by 1 within the do example:
+//		do  {
+//		a--;
+//		 }
+	
+		int x=39;
+		do {
+			System.out.println(x);
+			x--;
+		}while (x>=25);
+		
+			
+			
+		
+	}
+
+}
